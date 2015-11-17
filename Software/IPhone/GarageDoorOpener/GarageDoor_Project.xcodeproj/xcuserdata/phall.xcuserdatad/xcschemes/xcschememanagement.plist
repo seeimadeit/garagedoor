@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BlueToothLE_test.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>CustomParts.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DA2D0BB31BB321A40076F0EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA2D0BC31BB329E10076F0EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA76405D1BAE060500647413</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA7640661BAE060600647413</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA9281FF1BA992A4002F8561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA9282131BA992A4002F8561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DA92821E1BA992A4002F8561</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DABFFD281BB0B3E8001C6766</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DAD088ED1BB564AA00EFA81D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
