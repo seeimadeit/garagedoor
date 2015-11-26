@@ -2,6 +2,11 @@
 
 Project Status: Unstable - in development
 
+ * circuit design - stable
+* iphone software - unstable
+* arduino software - unstable
+* box housing - stable/regular changes
+
 
 Project located @ 
 [https://github.com/seeimadeit/garagedoor](https://github.com/seeimadeit/garagedoor "Github")
