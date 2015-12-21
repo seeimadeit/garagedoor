@@ -148,7 +148,7 @@
 <hole x="21.411340625" y="11.90949375" drill="2.8"/>
 <hole x="49.5559375" y="34.5723125" drill="2"/>
 <hole x="53.911340625" y="11.90949375" drill="2.8"/>
-<text x="21.922978125" y="55.30968125" size="1.778" layer="121">vin</text>
+<text x="21.061453125" y="55.2522375" size="1.778" layer="121">vin</text>
 <text x="51.46356875" y="55.531471875" size="1.778" layer="121">sck</text>
 <text x="52.3152" y="47.473603125" size="1.778" layer="121" rot="R90">5v</text>
 <text x="57.13951875" y="47.51539375" size="1.778" layer="121" rot="R90">gnd</text>
@@ -177,17 +177,18 @@
 <text x="56.434409375" y="29.27226875" size="1.778" layer="121">d4</text>
 <text x="56.434390625" y="26.6881875" size="1.778" layer="121">d5</text>
 <text x="56.310309375" y="24.083503125" size="1.778" layer="121">d6</text>
-<text x="21.019925" y="40.9342875" size="1.4224" layer="121" rot="R90">12 volts
-Center Positive</text>
-<text x="56.18080625" y="51.83660625" size="1.4224" layer="121">Peter Hall &amp; Chris Mills. 
+<text x="22.68554375" y="43.11715625" size="1.4224" layer="121" rot="R90">12 volts
+Center 
+Positive</text>
+<text x="58.89243125" y="51.28295" size="1.4224" layer="121">Peter Hall
 All rights reserved. 
-V1.0 © 2015</text>
+V1.0A (c) 2015</text>
 <text x="44.877184375" y="8.0854875" size="1.778" layer="121" rot="R180">relay</text>
 <text x="42.55986875" y="9.141471875" size="1.778" layer="121">5v</text>
 <text x="40.822975" y="4.0215" size="1.778" layer="121">gnd</text>
 <text x="38.671865625" y="7.670846875" size="1.778" layer="121" rot="R90">c1</text>
 <text x="26.620378125" y="7.756175" size="1.778" layer="121" rot="R90">c2</text>
-<text x="32.435075" y="11.907315625" size="1.778" layer="121" rot="R90">xtal</text>
+<text x="32.435075" y="13.940653125" size="1.778" layer="121" rot="R90">xtal</text>
 <text x="39.149975" y="13.010896875" size="1.778" layer="121" rot="R90">r2</text>
 <text x="4.63468125" y="15.254878125" size="1.778" layer="121">r1</text>
 <text x="16.198596875" y="3.824253125" size="1.778" layer="121" rot="R90">nc</text>
@@ -206,10 +207,10 @@ DO NOT TOUCH</text>
 <wire x1="63.24914375" y1="1.57066875" x2="63.24914375" y2="18.18670625" width="0.1016" layer="122"/>
 <wire x1="63.24914375" y1="18.18670625" x2="72.084209375" y2="18.18670625" width="0.1016" layer="122"/>
 <wire x1="72.084209375" y1="18.18670625" x2="72.084209375" y2="46.769659375" width="0.1016" layer="122"/>
-<wire x1="0.013875" y1="59.77785" x2="85.018859375" y2="59.772253125" width="0.3048" layer="20"/>
-<wire x1="85.018859375" y1="59.772253125" x2="85.018859375" y2="0.082559375" width="0.3048" layer="20"/>
+<wire x1="0.013875" y1="58.12196875" x2="85.018859375" y2="58.116371875" width="0.3048" layer="20"/>
+<wire x1="85.018859375" y1="58.116371875" x2="85.018859375" y2="0.082559375" width="0.3048" layer="20"/>
 <wire x1="85.018859375" y1="0.082559375" x2="0" y2="0.082559375" width="0.3048" layer="20"/>
-<wire x1="0" y1="0.082559375" x2="0.005596875" y2="59.780709375" width="0.3048" layer="20"/>
+<wire x1="0" y1="0.082559375" x2="0.005596875" y2="57.959240625" width="0.3048" layer="20"/>
 <text x="81.906609375" y="21.573590625" size="1.778" layer="122" rot="MR90">NC</text>
 <text x="81.834121875" y="29.24668125" size="1.778" layer="122" rot="MR90">COM</text>
 <text x="81.935021875" y="40.2831875" size="1.778" layer="122" rot="MR90">NO</text>
@@ -322,13 +323,13 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <rectangle x1="1.651" y1="-1.27" x2="3.429" y2="-0.762" layer="51"/>
 </package>
 <package name="PJ-102A">
-<wire x1="-4.6" y1="4.4" x2="4.4" y2="4.4" width="0.127" layer="21"/>
-<wire x1="4.4" y1="4.4" x2="4.4" y2="-10.2" width="0.127" layer="21"/>
+<wire x1="4.4" y1="1.15" x2="4.4" y2="-10.2" width="0.127" layer="21"/>
 <wire x1="4.4" y1="-10.2" x2="-4.6" y2="-10.2" width="0.127" layer="21"/>
-<wire x1="-4.6" y1="-10.2" x2="-4.6" y2="4.4" width="0.127" layer="21"/>
 <pad name="RING_SW" x="-4.6" y="-6.29" drill="3" diameter="4.8" rot="R180"/>
 <pad name="TIP" x="0.1" y="-9.29" drill="3" diameter="4.8" rot="R180"/>
 <pad name="RING" x="0.1" y="-3.39" drill="3" diameter="4.8" rot="R180"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-10.25" x2="-4.5" y2="1.25" width="0.127" layer="21"/>
 </package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -531,9 +532,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 <package name="SCREWTERMINAL-3.5MM-3">
 <wire x1="-13.75" y1="10.4" x2="13.75" y2="10.4" width="0.2032" layer="21"/>
-<pad name="1" x="-9" y="7" drill="1.2" diameter="2.413" shape="square"/>
-<pad name="2" x="0.23" y="7" drill="1.2" diameter="2.413"/>
-<pad name="3" x="9.43" y="7" drill="1.2" diameter="2.413"/>
+<pad name="1" x="-9" y="7" drill="1.5" diameter="3.81" shape="square"/>
+<pad name="2" x="0.23" y="7" drill="1.5" diameter="3.81"/>
+<pad name="3" x="9.43" y="7" drill="1.5" diameter="3.81"/>
 <text x="-10.27" y="9.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-10.27" y="8.27" size="0.4064" layer="27">&gt;VALUE</text>
 <wire x1="-13.97" y1="1.27" x2="-11.43" y2="1.27" width="0.127" layer="21"/>
@@ -1056,53 +1057,74 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SparkFun-Capacitors" package="CAP-PTH-5MM" value="20pF" x="35.9451375" y="8.948575" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.6751375" y="8.186575" size="0.4064" layer="25" rot="R90" display="off"/>
-<attribute name="VALUE" x="37.4691375" y="7.932575" size="0.4064" layer="27" rot="R90" display="off"/>
+<element name="C1" library="SparkFun-Capacitors" package="CAP-PTH-5MM" value="20pF" x="36.94335" y="8.867959375" smashed="yes" rot="R90">
+<attribute name="NAME" x="35.67335" y="8.105959375" size="0.4064" layer="25" rot="R90" display="off"/>
+<attribute name="VALUE" x="38.46735" y="7.851959375" size="0.4064" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="594-S200K25SL0N63L6R" x="36.94335" y="8.867959375" size="0.4064" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-5MM" value="20pF" x="27.778953125" y="8.95920625" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.92223125" y="8.902771875" size="0.4064" layer="25" rot="R90" display="off"/>
-<attribute name="VALUE" x="24.834978125" y="6.708465625" size="0.4064" layer="27" rot="R90" display="off"/>
+<element name="C2" library="SparkFun-Capacitors" package="CAP-PTH-5MM" value="20pF" x="26.196725" y="8.81569375" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.340003125" y="8.759259375" size="0.4064" layer="25" rot="R90" display="off"/>
+<attribute name="VALUE" x="23.25275" y="6.564953125" size="0.4064" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="594-S200K25SL0N63L6R" x="26.196725" y="8.81569375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".33uF" x="5.62599375" y="19.244740625" rot="R180"/>
-<element name="C4" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".33uF" x="3.7736" y="35.932996875" rot="R90"/>
-<element name="C6" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".33uF" x="26.70663125" y="15.940384375" rot="R180"/>
-<element name="C7" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".33uF" x="29.029759375" y="46.255625"/>
+<element name="C3" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".33uF" x="5.62599375" y="19.244740625" rot="R180">
+<attribute name="MOUSER" value="810-FK18X5R1A334K" x="5.62599375" y="19.244740625" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C4" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".33uF" x="3.7736" y="35.932996875" rot="R90">
+<attribute name="MOUSER" value="810-FK18X5R1A334K" x="3.7736" y="35.932996875" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C6" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".33uF" x="26.70663125" y="15.940384375" rot="R180">
+<attribute name="MOUSER" value="810-FK18X5R1A334K" x="26.70663125" y="15.940384375" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C7" library="SparkFun-Capacitors" package="CAP-PTH-SMALL-KIT" value=".33uF" x="29.029759375" y="46.255625">
+<attribute name="MOUSER" value="810-FK18X5R1A334K" x="29.029759375" y="46.255625" size="1.778" layer="27" display="off"/>
+</element>
 <element name="D1" library="adafruit" package="DO41-10" value="1N4004" x="10.837225" y="41.62968125" smashed="yes">
 <attribute name="NAME" x="11.62934375" y="34.11295625" size="1.27" layer="25" ratio="10" display="off"/>
 <attribute name="VALUE" x="8.805225" y="38.83568125" size="1.27" layer="27" ratio="10" display="off"/>
+<attribute name="MOUSER" value="621-1N4004" x="10.837225" y="41.62968125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC1" library="adafruit" package="TO220V" value="78V" x="7.735153125" y="27.452384375" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.18776875" y="22.447571875" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="0.115153125" y="32.532384375" size="1.27" layer="27" ratio="10" rot="R270" display="off"/>
+<attribute name="MOUSER" value="863-MC7805CTG" x="7.735153125" y="27.452384375" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="2X3-NS" value="ISP" x="54.49435" y="44.997359375" smashed="yes">
 <attribute name="NAME" x="50.68435" y="48.172359375" size="1.27" layer="25" ratio="10" display="off"/>
 <attribute name="VALUE" x="50.23538125" y="44.307334375" size="1.27" layer="27" rot="R90"/>
+<attribute name="MOUSER" value="571-5-146252-3" x="54.49435" y="44.997359375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="JP2" library="SparkFun-Connectors" package="1X10" value="adafruit nrf8001" x="49.5559375" y="55.779778125" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-11563" x="49.5559375" y="55.779778125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="50.9021375" y="53.950978125" size="1.27" layer="25" ratio="10" rot="R180" display="off"/>
-<attribute name="VALUE" x="44.003084375" y="58.98035625" size="1.016" layer="27" rot="R180"/>
+<attribute name="VALUE" x="44.692334375" y="46.83986875" size="1.016" layer="27" rot="R180"/>
+<attribute name="MOUSER" value="992-10FX1-254MM" x="49.5559375" y="55.779778125" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="1X06_NO_SILK" value="programmer" x="18.311875" y="8.29776875" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-08437" x="18.311875" y="8.29776875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="19.658075" y="6.46896875" size="1.27" layer="25" ratio="10" rot="R180" display="off"/>
 <attribute name="VALUE" x="16.5254" y="11.531565625" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="10K" x="6.268296875" y="15.702315625"/>
+<element name="R1" library="SparkFun-Resistors" package="AXIAL-0.3" value="10K" x="6.268296875" y="15.702315625">
+<attribute name="MOUSER" value="603-CFR-25JR-5210K" x="6.268296875" y="15.702315625" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R2" library="SparkFun-Resistors" package="AXIAL-0.3" value="10K" x="40.539590625" y="13.598490625" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.809590625" y="16.138490625" size="0.4064" layer="25" font="vector" rot="R270" display="off"/>
 <attribute name="VALUE" x="40.158590625" y="15.630490625" size="1.016" layer="21" font="vector" ratio="15" rot="R270"/>
+<attribute name="MOUSER" value="603-CFR-25JR-5210K" x="40.539590625" y="13.598490625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$1" library="adafruit" package="PJ-102A" value="2.1MMJACKTHM" x="11.642646875" y="55.224621875" smashed="yes"/>
+<element name="U$1" library="adafruit" package="PJ-102A" value="2.1MMJACKTHM" x="11.642646875" y="55.224621875" smashed="yes">
+<attribute name="MOUSER" value="992-CON-SOCJ-2155" x="11.642646875" y="55.224621875" size="1.778" layer="27" display="off"/>
+</element>
 <element name="U1" library="SparkFun-DigitalIC" package="DIL28-3" value="ATMEGA328P_PDIP" x="26.55435" y="24.830384375" smashed="yes">
 <attribute name="NAME" x="7.49375625" y="25.65354375" size="0.6096" layer="25" ratio="10" display="off"/>
 <attribute name="VALUE" x="11.31435" y="24.61873125" size="0.6096" layer="27" ratio="10"/>
+<attribute name="MOUSER" value="556-ATMEGA328P-PU" x="26.55435" y="24.830384375" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X1" library="SparkFun-FreqCtrl" package="TC38H" value="16mhz" x="31.735840625" y="11.428184375" smashed="yes" rot="R180">
 <attribute name="NAME" x="33.640840625" y="9.396184375" size="1.27" layer="25" ratio="10" rot="R270" display="off"/>
 <attribute name="VALUE" x="32.382134375" y="8.102646875" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="MOUSER" value="520-160-20-46X" x="31.735840625" y="11.428184375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="JP4" library="SparkFun-Connectors" package="1X03_LOCK" value="test point relay" x="46.888540625" y="4.685090625" smashed="yes" rot="R90">
 <attribute name="NAME" x="45.059740625" y="3.338890625" size="1.27" layer="25" ratio="10" rot="R90" display="off"/>
@@ -1111,13 +1133,16 @@ Please make sure your boards conform to these design rules.</description>
 <element name="S3" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="SWITCH-MOMENTARY-2PTH" x="64.138609375" y="23.587975" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value=" SWCH-08441" x="64.138609375" y="23.587975" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="60.328609375" y="21.047975" size="1.27" layer="25" ratio="10" rot="R90" display="off"/>
+<attribute name="MOUSER" value="693-1301.9301" x="64.138609375" y="23.587975" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="S4" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="SWITCH-MOMENTARY-2PTH" x="63.8392875" y="46.759021875" smashed="yes">
 <attribute name="PROD_ID" value=" SWCH-08441" x="63.8392875" y="46.759021875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="61.2992875" y="50.569021875" size="1.27" layer="25" ratio="10" display="off"/>
+<attribute name="MOUSER" value="693-1301.9301" x="63.8392875" y="46.759021875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="Q1" library="SparkFun-DiscreteSemi" package="TO-92" value="2N3904" x="55.171971875" y="7.226259375" rot="R90">
 <attribute name="PROD_ID" value="TRANS-08447" x="55.171971875" y="7.226259375" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER" value="610-2N3904" x="55.171971875" y="7.226259375" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="JP8" library="SparkFun-Connectors" package="SCREWTERMINAL-3.5MM-3" value="screw terminal" x="82.28159375" y="32.768653125" rot="R90">
 <attribute name="PROD_ID" value="CONN-08288" x="82.28159375" y="32.768653125" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1125,12 +1150,15 @@ Please make sure your boards conform to these design rules.</description>
 <element name="D2" library="adafruit" package="DO41-10" value="1N4004" x="60.101309375" y="9.43580625" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.752309375" y="11.46780625" size="1.27" layer="25" ratio="10" rot="R270" display="off"/>
 <attribute name="VALUE" x="57.307309375" y="11.46780625" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="MOUSER" value="621-1N4004" x="60.101309375" y="9.43580625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LED" library="adafruit" package="LED5MM" value="5mm" x="65.49308125" y="38.25785" smashed="yes">
 <attribute name="NAME" x="68.66808125" y="38.79125" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="68.69348125" y="36.45445" size="1.27" layer="27" ratio="10" display="off"/>
 </element>
-<element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="220" x="65.392478125" y="32.122740625" rot="R180"/>
+<element name="R3" library="SparkFun-Resistors" package="AXIAL-0.3" value="220" x="65.392478125" y="32.122740625" rot="R180">
+<attribute name="MOUSER" value="603-CFR-25JR-52220R" x="65.392478125" y="32.122740625" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="JP7" library="SparkFun-Connectors" package="1X06_NO_SILK" value="digital pins" x="55.26395" y="32.35105625" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CONN-08437" x="55.26395" y="32.35105625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="57.09275" y="33.69725625" size="1.27" layer="25" ratio="10" rot="R270" display="off"/>
@@ -1139,7 +1167,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="JP5" library="SparkFun-Connectors" package="1X08" value="analog pins" x="25.4059375" y="38.3316" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-08438" x="25.4059375" y="38.3316" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="29.103271875" y="37.56115" size="1.27" layer="25" ratio="10" rot="R180" display="off"/>
-<attribute name="VALUE" x="21.032665625" y="44.4729375" size="1.27" layer="27" rot="R180"/>
+<attribute name="VALUE" x="25.317490625" y="40.888653125" size="1.27" layer="27"/>
 </element>
 <element name="RELAY" library="relay" package="ZF112" value="relay" x="74.269196875" y="10.19159375" smashed="yes">
 <attribute name="MF" value="" x="74.269196875" y="10.19159375" size="1.778" layer="27" display="off"/>
@@ -1148,6 +1176,10 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="" x="74.269196875" y="10.19159375" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.969196875" y="2.57159375" size="1.778" layer="25" ratio="10" rot="R90" display="off"/>
 <attribute name="VALUE" x="78.21278125" y="8.277228125" size="1.778" layer="27" ratio="10" rot="R90"/>
+<attribute name="MOUSER" value="655-ORWH-SH105D1F000" x="74.269196875" y="10.19159375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R4" library="SparkFun-Resistors" package="AXIAL-0.3" value="680" x="49.960596875" y="15.86920625" rot="R270">
+<attribute name="MOUSER" value="603-CFR-25JR-52-680R" x="49.960596875" y="15.86920625" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1158,7 +1190,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="30.36435" y1="21.020384375" x2="30.465840625" y2="21.020384375" width="0.4064" layer="16"/>
 <wire x1="30.465840625" y1="21.020384375" x2="30.465840625" y2="11.428184375" width="0.8128" layer="16"/>
 <wire x1="30.465840625" y1="11.428184375" x2="27.793628125" y2="11.428184375" width="0.8128" layer="16"/>
-<wire x1="27.793628125" y1="11.428184375" x2="27.778953125" y2="11.45920625" width="0.4064" layer="16"/>
+<wire x1="27.793628125" y1="11.428184375" x2="26.196725" y2="11.31569375" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="U1" pad="10"/>
@@ -1167,7 +1199,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="32.90435" y1="21.020384375" x2="33.014115625" y2="21.020384375" width="0.4064" layer="16"/>
 <wire x1="33.014115625" y1="21.020384375" x2="33.005840625" y2="11.428184375" width="0.8128" layer="16"/>
 <wire x1="33.005840625" y1="11.428184375" x2="35.9451375" y2="11.428184375" width="0.8128" layer="16"/>
-<wire x1="35.9451375" y1="11.428184375" x2="35.9451375" y2="11.448575" width="0.4064" layer="16"/>
+<wire x1="35.9451375" y1="11.428184375" x2="36.94335" y2="11.367959375" width="0.4064" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="C1" pad="1"/>
@@ -1185,15 +1217,17 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="U1" pad="22"/>
 <contactref element="JP4" pad="1"/>
 <polygon width="0.4064" layer="16">
-<vertex x="0.411340625" y="59.5723125"/>
-<vertex x="84.5559375" y="59.5723125"/>
+<vertex x="0.494015625" y="57.66805"/>
+<vertex x="84.6386125" y="57.66805"/>
 <vertex x="84.5559375" y="0.40949375"/>
 <vertex x="0.411340625" y="0.40949375"/>
 </polygon>
-<wire x1="46.888540625" y1="4.685090625" x2="42.904909375" y2="6.533396875" width="0.4064" layer="16"/>
-<wire x1="42.904909375" y1="6.533396875" x2="38.575165625" y2="6.463571875" width="0.4064" layer="1"/>
-<via x="42.904909375" y="6.533396875" extent="1-16" drill="1" shape="square"/>
-<via x="38.575165625" y="6.463571875" extent="1-16" drill="1" shape="square"/>
+<wire x1="46.888540625" y1="4.685090625" x2="46.783040625" y2="3.627690625" width="0.4064" layer="16"/>
+<wire x1="46.783040625" y1="3.627690625" x2="46.783040625" y2="2.832665625" width="0.4064" layer="16"/>
+<wire x1="46.783040625" y1="2.832665625" x2="31.623546875" y2="2.832665625" width="0.4064" layer="16"/>
+<wire x1="31.623546875" y1="2.832665625" x2="31.730834375" y2="6.86665" width="0.4064" layer="1"/>
+<via x="31.623546875" y="2.832665625" extent="1-16" drill="1" shape="square"/>
+<via x="31.730834375" y="6.86665" extent="1-16" drill="1" shape="square"/>
 <contactref element="S4" pad="1"/>
 <contactref element="S3" pad="3"/>
 <wire x1="25.28435" y1="28.640384375" x2="25.11566875" y2="28.640384375" width="0.8128" layer="16"/>
@@ -1256,9 +1290,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="61.776784375" y1="24.20123125" x2="64.1477875" y2="24.219084375" width="0.8128" layer="16"/>
 <contactref element="JP5" pad="8"/>
 <wire x1="1.49896875" y1="15.746209375" x2="1.489603125" y2="49.7046" width="0.8128" layer="16"/>
-<wire x1="1.489603125" y1="49.7046" x2="1.489603125" y2="55.752546875" width="0.8128" layer="16"/>
-<wire x1="1.489603125" y1="55.752546875" x2="5.49534375" y2="55.668046875" width="0.8128" layer="16"/>
-<wire x1="5.49534375" y1="55.668046875" x2="5.49444375" y2="55.79856875" width="0.4064" layer="16"/>
+<wire x1="1.489603125" y1="49.7046" x2="1.489603125" y2="55.785759375" width="0.8128" layer="16"/>
+<wire x1="1.489603125" y1="55.785759375" x2="5.561765625" y2="55.7676875" width="0.8128" layer="16"/>
+<wire x1="5.561765625" y1="55.7676875" x2="5.49444375" y2="55.79856875" width="0.4064" layer="16"/>
 <wire x1="5.49444375" y1="55.79856875" x2="26.3694" y2="55.787209375" width="0.8128" layer="16"/>
 <contactref element="RELAY" pad="1"/>
 <contactref element="JP3" pad="3"/>
@@ -1433,21 +1467,13 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="10.691875" y1="11.146459375" x2="10.691875" y2="8.29776875" width="0.8128" layer="16"/>
 </signal>
 <signal name="RELAY">
-<contactref element="U1" pad="14"/>
 <contactref element="JP4" pad="2"/>
-<wire x1="49.612596875" y1="7.209303125" x2="49.612615625" y2="7.287115625" width="0.4064" layer="16"/>
-<wire x1="49.612615625" y1="7.287115625" x2="49.613890625" y2="12.4666875" width="0.8128" layer="16"/>
-<wire x1="49.613890625" y1="12.4666875" x2="46.2094125" y2="12.466690625" width="0.8128" layer="16"/>
-<wire x1="46.2094125" y1="12.466690625" x2="46.25215" y2="21.2543375" width="0.4064" layer="1"/>
-<wire x1="46.25215" y1="21.2543375" x2="43.06435" y2="21.2543375" width="0.8128" layer="16"/>
-<wire x1="43.06435" y1="21.2543375" x2="43.06435" y2="21.020384375" width="0.4064" layer="16"/>
-<via x="46.2094125" y="12.466690625" extent="1-16" drill="1" shape="square"/>
-<via x="46.25215" y="21.2543375" extent="1-16" drill="1" shape="square"/>
 <contactref element="Q1" pad="2"/>
-<wire x1="46.888540625" y1="7.225090625" x2="49.612596875" y2="7.225090625" width="0.8128" layer="16"/>
-<wire x1="49.612596875" y1="7.225090625" x2="49.612596875" y2="7.209303125" width="0.4064" layer="16"/>
-<wire x1="53.266971875" y1="7.226259375" x2="49.612615625" y2="7.226259375" width="0.8128" layer="16"/>
-<wire x1="49.612615625" y1="7.226259375" x2="49.612615625" y2="7.287115625" width="0.4064" layer="16"/>
+<contactref element="R4" pad="P$2"/>
+<wire x1="46.888540625" y1="7.225090625" x2="49.960596875" y2="7.225090625" width="0.8128" layer="16"/>
+<wire x1="49.960596875" y1="7.226259375" x2="49.960596875" y2="12.05920625" width="0.8128" layer="16"/>
+<wire x1="53.266971875" y1="7.226259375" x2="49.960596875" y2="7.226259375" width="0.8128" layer="16"/>
+<wire x1="49.960596875" y1="7.226259375" x2="49.960596875" y2="7.225090625" width="0.8128" layer="16"/>
 </signal>
 <signal name="BUTTON">
 <contactref element="U1" pad="13"/>
@@ -1591,6 +1617,12 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="JP8" pad="1"/>
 <wire x1="80.365196875" y1="16.18599375" x2="80.30290625" y2="23.762196875" width="1.016" layer="16"/>
 <wire x1="80.30290625" y1="23.762196875" x2="75.28159375" y2="23.768653125" width="1.016" layer="16"/>
+</signal>
+<signal name="N$7">
+<contactref element="U1" pad="14"/>
+<contactref element="R4" pad="P$1"/>
+<wire x1="43.06435" y1="21.020384375" x2="49.960596875" y2="21.020384375" width="0.8128" layer="16"/>
+<wire x1="49.960596875" y1="21.020384375" x2="49.960596875" y2="19.67920625" width="0.8128" layer="16"/>
 </signal>
 </signals>
 </board>

@@ -1159,13 +1159,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <library name="adafruit">
 <packages>
 <package name="PJ-102A">
-<wire x1="-4.6" y1="4.4" x2="4.4" y2="4.4" width="0.127" layer="21"/>
-<wire x1="4.4" y1="4.4" x2="4.4" y2="-10.2" width="0.127" layer="21"/>
+<wire x1="4.4" y1="1.15" x2="4.4" y2="-10.2" width="0.127" layer="21"/>
 <wire x1="4.4" y1="-10.2" x2="-4.6" y2="-10.2" width="0.127" layer="21"/>
-<wire x1="-4.6" y1="-10.2" x2="-4.6" y2="4.4" width="0.127" layer="21"/>
 <pad name="RING_SW" x="-4.6" y="-6.29" drill="3" diameter="4.8" rot="R180"/>
 <pad name="TIP" x="0.1" y="-9.29" drill="3" diameter="4.8" rot="R180"/>
 <pad name="RING" x="0.1" y="-3.39" drill="3" diameter="4.8" rot="R180"/>
+<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-10.25" x2="-4.5" y2="1.25" width="0.127" layer="21"/>
 </package>
 <package name="DCJACK_2MM_SMT">
 <description>2.0/2.1mm DC Jack - SMT
@@ -4153,9 +4153,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </package>
 <package name="SCREWTERMINAL-3.5MM-3">
 <wire x1="-13.75" y1="10.4" x2="13.75" y2="10.4" width="0.2032" layer="21"/>
-<pad name="1" x="-9" y="7" drill="1.2" diameter="2.413" shape="square"/>
-<pad name="2" x="0.23" y="7" drill="1.2" diameter="2.413"/>
-<pad name="3" x="9.43" y="7" drill="1.2" diameter="2.413"/>
+<pad name="1" x="-9" y="7" drill="1.5" diameter="3.81" shape="square"/>
+<pad name="2" x="0.23" y="7" drill="1.5" diameter="3.81"/>
+<pad name="3" x="9.43" y="7" drill="1.5" diameter="3.81"/>
 <text x="-10.27" y="9.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-10.27" y="8.27" size="0.4064" layer="27">&gt;VALUE</text>
 <wire x1="-13.97" y1="1.27" x2="-11.43" y2="1.27" width="0.127" layer="21"/>
@@ -7616,29 +7616,59 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_PDIP" device=""/>
-<part name="X1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TC38H" value="16mhz"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="20pF"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="20pF"/>
+<part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_PDIP" device="">
+<attribute name="MOUSER" value="556-ATMEGA328P-PU"/>
+</part>
+<part name="X1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TC38H" value="16mhz">
+<attribute name="MOUSER" value="520-160-20-46X"/>
+</part>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="20pF">
+<attribute name="MOUSER" value="594-S200K25SL0N63L6R"/>
+</part>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="20pF">
+<attribute name="MOUSER" value="594-S200K25SL0N63L6R"/>
+</part>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="10K">
+<attribute name="MOUSER" value="603-CFR-25JR-5210K"/>
+</part>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="U$1" library="adafruit" deviceset="2.1MMJACK" device="THM"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF"/>
+<part name="U$1" library="adafruit" deviceset="2.1MMJACK" device="THM">
+<attribute name="MOUSER" value="992-CON-SOCJ-2155"/>
+</part>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF">
+<attribute name="MOUSER" value="810-FK18X5R1A334K"/>
+</part>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF">
+<attribute name="MOUSER" value="810-FK18X5R1A334K"/>
+</part>
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF">
+<attribute name="MOUSER" value="810-FK18X5R1A334K"/>
+</part>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF">
+<attribute name="MOUSER" value="810-FK18X5R1A334K"/>
+</part>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="IC1" library="adafruit" deviceset="78*" device="V" value="78V"/>
+<part name="IC1" library="adafruit" deviceset="78*" device="V" value="78V">
+<attribute name="MOUSER" value="863-MC7805CTG"/>
+</part>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M03X2" device="NO_SILK" value="ISP"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M03X2" device="NO_SILK" value="ISP">
+<attribute name="MOUSER" value="571-5-146252-3"/>
+</part>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M10" device="SILK_FEMALE_PTH" value="adafruit nrf8001"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="M10" device="SILK_FEMALE_PTH" value="adafruit nrf8001">
+<attribute name="MOUSER" value="992-10FX1-254MM"/>
+</part>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH" value="programmer"/>
-<part name="D1" library="adafruit" deviceset="1N4004" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="10K"/>
+<part name="D1" library="adafruit" deviceset="1N4004" device="">
+<attribute name="MOUSER" value="621-1N4004"/>
+</part>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="10K">
+<attribute name="MOUSER" value="603-CFR-25JR-5210K"/>
+</part>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -7646,48 +7676,93 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M03" device="LOCK" value="test point relay"/>
-<part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH"/>
-<part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="2N3904" value="2N3904"/>
+<part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH">
+<attribute name="MOUSER" value="693-1301.9301"/>
+</part>
+<part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH">
+<attribute name="MOUSER" value="693-1301.9301"/>
+</part>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="2N3904" value="2N3904">
+<attribute name="MOUSER" value="610-2N3904"/>
+</part>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M03" device="SCREW" value="screw terminal"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D2" library="adafruit" deviceset="1N4004" device=""/>
+<part name="D2" library="adafruit" deviceset="1N4004" device="">
+<attribute name="MOUSER" value="621-1N4004"/>
+</part>
 <part name="LED" library="adafruit" deviceset="LED" device="5MM" value="5mm"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="220"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="220">
+<attribute name="MOUSER" value="603-CFR-25JR-52220R"/>
+</part>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP7" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH" value="digital pins"/>
 <part name="JP5" library="SparkFun-Connectors" deviceset="M08" device="SILK_FEMALE_PTH" value="analog pins"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="RELAY" library="relay" deviceset="ZF112" device="" value="relay"/>
+<part name="RELAY" library="relay" deviceset="ZF112" device="" value="relay">
+<attribute name="MOUSER" value="655-ORWH-SH105D1F000"/>
+</part>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="680">
+<attribute name="MOUSER" value="603-CFR-25JR-52-680R"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="76.2" y="45.72"/>
-<instance part="X1" gate="G$1" x="43.18" y="43.18" rot="R90"/>
-<instance part="C1" gate="G$1" x="33.02" y="40.64" rot="R90"/>
-<instance part="C2" gate="G$1" x="33.02" y="45.72" rot="R90"/>
+<instance part="U1" gate="G$1" x="76.2" y="45.72">
+<attribute name="MOUSER" x="76.2" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="X1" gate="G$1" x="43.18" y="43.18" rot="R90">
+<attribute name="MOUSER" x="43.18" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="33.02" y="40.64" rot="R90">
+<attribute name="MOUSER" x="33.02" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="33.02" y="45.72" rot="R90">
+<attribute name="MOUSER" x="33.02" y="45.72" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND1" gate="1" x="22.86" y="43.18" rot="R270"/>
-<instance part="R1" gate="G$1" x="25.4" y="68.58"/>
+<instance part="R1" gate="G$1" x="25.4" y="68.58">
+<attribute name="MOUSER" x="25.4" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND2" gate="1" x="0" y="53.34" rot="R270"/>
 <instance part="SUPPLY1" gate="G$1" x="15.24" y="73.66"/>
-<instance part="U$1" gate="G$1" x="-5.08" y="25.4"/>
-<instance part="C3" gate="G$1" x="43.18" y="20.32"/>
-<instance part="C4" gate="G$1" x="17.78" y="20.32"/>
-<instance part="C6" gate="G$1" x="45.72" y="60.96" rot="R180"/>
-<instance part="C7" gate="G$1" x="35.56" y="63.5" rot="R180"/>
+<instance part="U$1" gate="G$1" x="-5.08" y="25.4">
+<attribute name="MOUSER" x="-5.08" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="43.18" y="20.32">
+<attribute name="MOUSER" x="43.18" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="17.78" y="20.32">
+<attribute name="MOUSER" x="17.78" y="20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="45.72" y="60.96" rot="R180">
+<attribute name="MOUSER" x="45.72" y="60.96" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="35.56" y="63.5" rot="R180">
+<attribute name="MOUSER" x="35.56" y="63.5" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="33.02" y="53.34" rot="R270"/>
-<instance part="IC1" gate="A1" x="30.48" y="25.4"/>
+<instance part="IC1" gate="A1" x="30.48" y="25.4">
+<attribute name="MOUSER" x="30.48" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="30.48" y="10.16"/>
-<instance part="JP1" gate="G$1" x="160.02" y="68.58"/>
+<instance part="JP1" gate="G$1" x="160.02" y="68.58">
+<attribute name="MOUSER" x="160.02" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="170.18" y="58.42"/>
 <instance part="SUPPLY2" gate="G$1" x="172.72" y="76.2"/>
-<instance part="JP2" gate="G$1" x="83.82" y="106.68" rot="R270"/>
+<instance part="JP2" gate="G$1" x="83.82" y="106.68" rot="R270">
+<attribute name="MOUSER" x="83.82" y="106.68" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="JP3" gate="G$1" x="25.4" y="101.6" rot="R270"/>
-<instance part="D1" gate="1" x="7.62" y="25.4"/>
-<instance part="R2" gate="G$1" x="147.32" y="30.48"/>
+<instance part="D1" gate="1" x="7.62" y="25.4">
+<attribute name="MOUSER" x="7.62" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="147.32" y="30.48">
+<attribute name="MOUSER" x="147.32" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="53.34" y="5.08"/>
 <instance part="GND7" gate="1" x="167.64" y="35.56" rot="R90"/>
 <instance part="SUPPLY4" gate="G$1" x="33.02" y="66.04"/>
@@ -7695,20 +7770,35 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <instance part="SUPPLY6" gate="G$1" x="43.18" y="63.5" rot="R90"/>
 <instance part="SUPPLY7" gate="G$1" x="50.8" y="25.4"/>
 <instance part="JP4" gate="G$1" x="93.98" y="139.7"/>
-<instance part="S3" gate="G$1" x="157.48" y="35.56"/>
-<instance part="S4" gate="G$1" x="7.62" y="60.96"/>
-<instance part="Q1" gate="G$1" x="114.3" y="139.7"/>
+<instance part="S3" gate="G$1" x="157.48" y="35.56">
+<attribute name="MOUSER" x="157.48" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="S4" gate="G$1" x="7.62" y="60.96">
+<attribute name="MOUSER" x="7.62" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="Q1" gate="G$1" x="114.3" y="139.7">
+<attribute name="MOUSER" x="114.3" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="JP8" gate="G$1" x="149.86" y="165.1" rot="R270"/>
 <instance part="GND8" gate="1" x="116.84" y="132.08"/>
-<instance part="D2" gate="1" x="116.84" y="149.86" rot="R90"/>
+<instance part="D2" gate="1" x="116.84" y="149.86" rot="R90">
+<attribute name="MOUSER" x="116.84" y="149.86" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="LED" gate="G$1" x="154.94" y="48.26" rot="R90"/>
-<instance part="R3" gate="G$1" x="167.64" y="48.26"/>
+<instance part="R3" gate="G$1" x="167.64" y="48.26">
+<attribute name="MOUSER" x="167.64" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND9" gate="1" x="177.8" y="48.26" rot="R90"/>
 <instance part="JP7" gate="G$1" x="175.26" y="101.6" rot="R270"/>
 <instance part="JP5" gate="G$1" x="175.26" y="15.24" rot="R270"/>
 <instance part="GND10" gate="1" x="101.6" y="134.62"/>
 <instance part="RELAY" gate="1" x="127" y="152.4"/>
-<instance part="RELAY" gate="2" x="144.78" y="152.4" rot="R90"/>
+<instance part="RELAY" gate="2" x="144.78" y="152.4" rot="R90">
+<attribute name="MOUSER" x="144.78" y="152.4" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="109.22" y="25.4">
+<attribute name="MOUSER" x="109.22" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8107,15 +8197,16 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 </net>
 <net name="RELAY" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
-<wire x1="101.6" y1="25.4" x2="111.76" y2="25.4" width="0.1524" layer="91"/>
-<label x="121.92" y="25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP4" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <label x="104.14" y="139.7" size="1.778" layer="95"/>
 <wire x1="101.6" y1="139.7" x2="111.76" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+<junction x="114.3" y="25.4"/>
+<label x="119.38" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BUTTON" class="0">
@@ -8318,6 +8409,15 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <pinref part="RELAY" gate="2" pin="O"/>
 <pinref part="JP8" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="25.4" x2="104.14" y2="25.4" width="0.1524" layer="91"/>
+<junction x="101.6" y="25.4"/>
+<junction x="104.14" y="25.4"/>
 </segment>
 </net>
 </nets>
