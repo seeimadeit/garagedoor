@@ -7622,10 +7622,10 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="X1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TC38H" value="16mhz">
 <attribute name="MOUSER" value="520-160-20-46X"/>
 </part>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="20pF">
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="33pF">
 <attribute name="MOUSER" value="594-S200K25SL0N63L6R"/>
 </part>
-<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="20pF">
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="PTH1" value="33pF">
 <attribute name="MOUSER" value="594-S200K25SL0N63L6R"/>
 </part>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -7643,10 +7643,10 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF">
 <attribute name="MOUSER" value="810-FK18X5R1A334K"/>
 </part>
-<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF">
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".1uF">
 <attribute name="MOUSER" value="810-FK18X5R1A334K"/>
 </part>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".33uF">
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="KIT" value=".1uF">
 <attribute name="MOUSER" value="810-FK18X5R1A334K"/>
 </part>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -7675,7 +7675,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="JP4" library="SparkFun-Connectors" deviceset="M03" device="LOCK" value="test point relay"/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M03" device="LOCK"/>
 <part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH">
 <attribute name="MOUSER" value="693-1301.9301"/>
 </part>
@@ -7701,7 +7701,7 @@ MMBT5088LT1G - TRANS-11160 (SOT-23, 50 mA 30V)&lt;br&gt;
 <part name="RELAY" library="relay" deviceset="ZF112" device="" value="relay">
 <attribute name="MOUSER" value="655-ORWH-SH105D1F000"/>
 </part>
-<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="680">
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="AXIAL-0.3" value="2K4">
 <attribute name="MOUSER" value="603-CFR-25JR-52-680R"/>
 </part>
 </parts>
